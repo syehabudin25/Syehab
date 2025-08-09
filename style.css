@@ -1,0 +1,128 @@
+/* Body */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #0f0f2b, #1a0033);
+    color: white;
+}
+
+/* Scrollbar Style */
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    background: #1a0033;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #9b4dff, #ff4ddb);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom, #b366ff, #ff80e6);
+}
+
+/* Navbar */
+.navbar {
+    background: linear-gradient(to right, #9b4dff, #ff4ddb);
+    padding: 15px;
+    text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+.navbar h1 {
+    margin: 0;
+    font-size: 24px;
+}
+.navbar nav {
+    margin-top: 10px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+.navbar a:hover {
+    color: yellow;
+}
+
+/* Profile Section */
+.profile-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+}
+.profile-section img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #ff4ddb;
+}
+.profile-text h2 {
+    margin: 0;
+}
+
+/* Biodata List */
+.biodata {
+    margin-top: 10px;
+    list-style: none;
+    padding: 0;
+}
+.biodata li {
+    margin-bottom: 5px;
+}
+
+/* Container */
+.container {
+    margin: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+}
+
+/* Heading */
+h2 {
+    border-bottom: 2px solid #ff4ddb;
+    padding-bottom: 5px;
+}
+
+/* List */
+ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid white;
+}
+
+/* Link Kontak */
+.contact-link {
+    text-decoration: none;
+    color: yellow;
+    font-weight: bold;
+    transition: color 0.3s ease, text-decoration-color 0.3s ease;
+}
+.contact-link:hover {
+    color: #ff4ddb;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+}
