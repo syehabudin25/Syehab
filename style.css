@@ -1,4 +1,4 @@
-/* Body */
+/*Body*/
 body {
     font-family: 'Segoe UI', sans-serif;
     margin: 0;
@@ -7,7 +7,7 @@ body {
     color: white;
 }
 
-/* Scrollbar Style */
+/*Scrollbar Style*/
 ::-webkit-scrollbar {
     width: 12px;
 }
@@ -23,7 +23,7 @@ body {
     background: linear-gradient(to bottom, #b366ff, #ff80e6);
 }
 
-/* Navbar */
+/*Navbar*/
 .navbar {
     background: linear-gradient(to right, #9b4dff, #ff4ddb);
     padding: 15px;
@@ -49,7 +49,7 @@ body {
     color: yellow;
 }
 
-/* Profile Section */
+/*Profile Section*/
 .profile-section {
     display: flex;
     align-items: center;
@@ -70,7 +70,7 @@ body {
     margin: 0;
 }
 
-/* Biodata List */
+/*Biodata List*/
 .biodata {
     margin-top: 10px;
     list-style: none;
@@ -80,7 +80,7 @@ body {
     margin-bottom: 5px;
 }
 
-/* Container */
+/*Container*/
 .container {
     margin: 20px;
     padding: 20px;
@@ -89,19 +89,19 @@ body {
     box-shadow: 0 4px 15px rgba(0,0,0,0.4);
 }
 
-/* Heading */
+/*Heading*/
 h2 {
     border-bottom: 2px solid #ff4ddb;
     padding-bottom: 5px;
 }
 
-/* List */
+/*List*/
 ul {
     list-style: square;
     padding-left: 20px;
 }
 
-/* Table */
+/*Table*/
 table {
     width: 100%;
     border-collapse: collapse;
@@ -113,7 +113,7 @@ th, td {
     border: 1px solid white;
 }
 
-/* Link Kontak */
+/*Link Kontak*/
 .contact-link {
     text-decoration: none;
     color: yellow;
